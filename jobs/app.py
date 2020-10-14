@@ -1,7 +1,7 @@
 import sqlite3
 from flask import Flask, render_template, g
 
-Path = 'db/jobs.sqlite'
+PATH = 'db/jobs.sqlite'
 
 app = Flask(__name__)
 ef open_connection():
